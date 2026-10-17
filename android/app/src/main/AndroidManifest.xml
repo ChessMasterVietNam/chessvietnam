@@ -8,7 +8,7 @@
         android:largeScreens="true"
         android:xlargeScreens="true"/>
     <application
-        android:label="Lichess"
+        android:label="CHESSvietnam"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -161,7 +161,7 @@
         <receiver android:exported="false"
             android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"/>
         <receiver android:name=".widgets.BroadcastWidgetProvider"
-            android:label="@string/widget_broadcast_title"
+            android:label="CHESSvietnam"
             android:exported="true"
             android:permission="android.permission.BIND_APPWIDGET">
             <intent-filter>
